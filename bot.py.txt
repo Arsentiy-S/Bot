@@ -9,7 +9,7 @@ from analysis import analyze_pair, plot_indicators
 from pairs import normal_pairs, otc_pairs
 
 BOT_TOKEN = os.getenv("1068616780:AAFwsWCji4agZ-K03-mfrw3NdY6-aAc2SR4")
-bot = Bot(token=1068616780:AAFwsWCji4agZ-K03-mfrw3NdY6-aAc2SR4)
+bot = Bot(token="1068616780:AAFwsWCji4agZ-K03-mfrw3NdY6-aAc2SR4")
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
